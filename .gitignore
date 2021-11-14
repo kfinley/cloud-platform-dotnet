@@ -5,3 +5,5 @@ obj
 # macOS
 .DS_Store
 
+# Mono crash files
+mono_crash.*
