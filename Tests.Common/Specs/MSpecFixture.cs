@@ -13,7 +13,7 @@ namespace CloudPlatform.Tests.Common.Specs {
 
       if (specs.Any(s => s == spec.GetType().Name) == false) {
         specs.Add(spec.GetType().Name);
-        System.Console.WriteLine($"Running Spec: {spec.GetType().Name}...");
+        Console.WriteLine($"Running Spec: {spec.GetType().Name}...");
         try {
           context();
           of();

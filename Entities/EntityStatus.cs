@@ -1,6 +1,6 @@
 using System;
 
-namespace CloudPlatform.Core.Data {
+namespace CloudPlatform.Entities {
   public enum EntityStatus {
     None = 0,
     Active = 1,

@@ -1,6 +1,6 @@
 using System;
 
-namespace CloudPlatform.Core.Data {
+namespace CloudPlatform.Entities {
   public abstract class BaseEntity : IEntity {
     public Guid Id { get; set; }
     public EntityStatus Status { get; set; }

@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
+using CloudPlatform.Entities;
+
 namespace CloudPlatform.Core.Data {
   public abstract class EntityTypeConfiguration<T> : IEntityTypeConfiguration<T> where T : class, IEntity {
 

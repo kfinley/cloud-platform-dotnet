@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
+using CloudPlatform.Entities;
+
 namespace CloudPlatform.Core.Data {
   public class DataContext<T> : DbContext where T : DbContext {
     public DataContext(DbContextOptions<T> options) : base(options) { }
